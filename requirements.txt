@@ -1,0 +1,13 @@
+jupyter
+pandas
+numpy
+tqdm
+xlrd >= 1.0.0
+tsfresh
+scipy==1.3.0
+sklearn
+ipywidgets
+statsmodels
+plotly==4.1.0
+
+ipython kernel install --user --name=myvenv_bitcoin
