@@ -10,4 +10,4 @@ ipywidgets
 statsmodels
 plotly==4.1.0
 
-ipython kernel install --user --name=myvenv_bitcoin
+#ipython kernel install --user --name=myvenv_bitcoin

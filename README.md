@@ -12,8 +12,8 @@ Keywords: bitcoin UnivarianteTimeSeries Visualization ExtractionFeatures
 Installation:
 Create a virtual environment variable and, then, run requirements.txt
 ```bash
-1) python -m venv myvenv
-2) myvenv\Scripts\activate
+1) python -m venv myvenv_bitcoin
+2) myvenv_bitcoin\Scripts\activate
 3) pip install -r requirements.txt
 ```
 
@@ -31,7 +31,7 @@ python processing_bitcoin.py
 To analyze the Bitcoin prices, you must run the notebook called UNIVARIATE_TIME_SERIES_ANALYSIS_AND_AUTOMATIC_FEATURE_EXTRATION - BITCOIN.ipynb
 
 ```bash
-1) ipython kernel install --user --name=myvenv
+1) ipython kernel install --user --name=myvenv_bitcoin
 2) jupyter notebook
 ```
 
@@ -48,7 +48,7 @@ Project Organization
     │   ├── __init__.py    <- Makes src a Python module
     │   │
     │   ├── data           <- Scripts to generate Bitcoin data
-    │   │   └── processing_bitcoin.py <- Apply NLP on tweets    
+    │   │   └── processing_bitcoin.py <- Apply analysis on prices closing daily bitcoin    
     │   │
     │   ├── features       <- Scripts to turn raw data into features for modeling
     │   │   └── build_features.py
